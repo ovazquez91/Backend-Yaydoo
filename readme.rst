@@ -8,8 +8,11 @@ Esta aplicación fue creada con codeigniter 3, se genero una plataforma para sim
 Sistema de Gestión de Usuarios:
 **************************
 Usuario Administrador
+
 Usuario: omar.vz91@gmail.com
+
 Contraseña: 123456
+
 https://digitaltec.com.mx/yaydoo/usuarios/
 
 se trabajo en una base de datos en Mysql y un servidore CentOs
