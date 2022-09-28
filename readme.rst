@@ -1,22 +1,31 @@
 ###################
-What is CodeIgniter
+Reto para proceso de admisión Yaydo
 ###################
 
-CodeIgniter is an Application Development Framework - a toolkit - for people
-who build web sites using PHP. Its goal is to enable you to develop projects
-much faster than you could if you were writing code from scratch, by providing
-a rich set of libraries for commonly needed tasks, as well as a simple
-interface and logical structure to access these libraries. CodeIgniter lets
-you creatively focus on your project by minimizing the amount of code needed
-for a given task.
+Esta aplicación fue creada con codeigniter 3, se genero una plataforma para simular un carrito de ventas en linea, donde los vendedores pudieras subir sus articulos y los administradores pudieran filtrar los articulos por proveedores, tambien se genero una Api para conectarla en la parte frontend con react.
 
-*******************
-Release Information
-*******************
+**************************
+Sistema de Gestión de Usuarios:
+**************************
+Usuario Administrador
+Usuario: omar.vz91@gmail.com
+Contraseña: 123456
+https://digitaltec.com.mx/yaydoo/usuarios/
 
-This repo contains in-development code for future releases. To download the
-latest stable release please visit the `CodeIgniter Downloads
-<https://codeigniter.com/download>`_ page.
+se trabajo en una base de datos en Mysql y un servidore CentOs
+si quieren generar usuarios como vendedores los pueden crear directamente.
+
+**************************
+Api de todos los productos:
+**************************
+https://digitaltec.com.mx/yaydoo/usuarios/Api
+
+**************************
+FrontEnd con React:
+**************************
+https://digitaltec.com.mx/yaydoo/
+
+
 
 **************************
 Changelog and New Features
