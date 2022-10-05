@@ -6,10 +6,10 @@
 		<section class="cd-gallery">
 			<ul>
             <?php foreach($productos as $valProd): ?>
-				<li class="mix check<?= $valProd->id_usuario ?>">
+				<li style="padding-top: 20px; padding-bottom: 20px;" class="mix check<?= $valProd->id_usuario ?>">
                     <div style="text-align: center;" class="card">
                     <img width="300" src="<?php echo base_url(); ?>application/assets/image/defaultImage.png" alt="Image 1">
-                    <p style="font-size: 18px;"><b>Nombre Producto:<?= $valProd->nombre_producto ?></b></p>
+                    <p style="font-size: 18px;"><b>Producto:<br><?= $valProd->nombre_producto ?></b></p>
                     <p><b>SKU:</b> <?= $valProd->sku ?></p>
                     <p><b>Precio:</b> $<?= $valProd->precio ?></p>
                     </div>

@@ -10,7 +10,6 @@
         <link href="https://cdn.jsdelivr.net/npm/simple-datatables@latest/dist/style.css" rel="stylesheet" />
         <link href="<?php echo base_url(); ?>application/assets/css/styles.css" rel="stylesheet" />
         <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
-<main class="cd-main-content">
     </head>
     <body class="sb-nav-fixed">
         <nav class="sb-topnav navbar navbar-expand navbar-light bg-light">
@@ -32,25 +31,17 @@
                                 <div class="sb-nav-link-icon"><i class="fas fa-home"></i></div>
                                 Inicio
                             </a>
-                            <div class="card">
-							<div class="cd-filter">
-			<form>
-
-				<div class="cd-filter-block">
-					<h4>Proveedores</h4>
-                    <ul class="cd-filter-content cd-filters list">
-                    <?php foreach($usuarios as $valUsers): ?>
-                        <li>
-							<input class="filter" data-filter=".check<?= $valUsers->id_usuario ?>" type="checkbox" id="check<?= $valUsers->id_usuario ?>">
-			    			<label class="checkbox-label" for="check<?= $valUsers->id_usuario ?>"><?= $valUsers->email ?></label>
-						</li> 
-                    <?php endforeach; ?>
-					</ul> <!-- cd-filter-content -->
-				</div> <!-- cd-filter-block -->
-			</form>
-		</div> <!-- cd-filter -->
-</div>
-                            
+                            <div class="sb-sidenav-menu-heading">Proveedores</div>
+                            <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseLayouts" aria-expanded="false" aria-controls="collapseLayouts">
+                                <div class="sb-nav-link-icon"><i class="fas fa-box"></i></div>
+                                Proveedores
+                                <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                            </a>
+                            <div class="collapse" id="collapseLayouts" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
+                                <nav class="sb-sidenav-menu-nested nav">
+                                    <a class="nav-link" href="<?php echo base_url(); ?>admin/Filtrado">Filtrar Proveedores</a>
+                                </nav>
+                            </div>
                             <a class="nav-link" href="<?php echo base_url(); ?>Login/Salir">
                                 <div class="sb-nav-link-icon"><i class="fa-solid fa-right-to-bracket"></i></div>
                                 Salir
